@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_sweet.mk
+    $(LOCAL_DIR)/spark_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_sweet-user \
-    cherish_sweet-userdebug \
-    cherish_sweet-eng
+    spark_sweet-user \
+    spark_sweet-userdebug \
+    spark_sweet-eng
