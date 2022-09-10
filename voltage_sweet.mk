@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common Cherish OS  Stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit common Voltage OS  Stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_NAME := cherish_sweet
+PRODUCT_NAME := voltage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
@@ -22,10 +22,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Cherish OS Stuffs
-CHERISH_BUILD_TYPE=OFFICIAL
-WITH_GMS := true
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Niranjan&Madhav
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_BLUR := true
+# Voltage OS Official
+VOLTAGE_BUILD_TYPE := OFFICIAL
