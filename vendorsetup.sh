@@ -9,10 +9,10 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_media -b arrow-12.0-c
 git clone https://github.com/ArrowOS/android_hardware_qcom_display -b arrow-12.0-caf-sm8150 hardware/qcom-caf/sm8150/display
 
 # Common dt
-git clone https://github.com/Sm6150-Sweet/device_xiaomi_sm6150 device/xiaomi/sm6150-common
+
 
 # Vendor
-git clone https://github.com/Sm6150-Sweet/vendor_xiaomi.git vendor/xiaomi
+
 
 # Device Settings
 rm -rf packages/resources/devicesettings
