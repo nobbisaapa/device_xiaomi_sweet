@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_sweet.mk
+    $(LOCAL_DIR)/xdroid_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_sweet-user \
-    cherish_sweet-userdebug \
-    cherish_sweet-eng
+    xdroid_sweet-user \
+    xdroid_sweet-userdebug \
+    xdroid_sweet-eng
