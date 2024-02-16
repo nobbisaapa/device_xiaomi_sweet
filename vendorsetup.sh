@@ -13,7 +13,6 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_display -b arrow-12.0
 
 # Vendor
 
-
 # Device Settings
 rm -rf packages/resources/devicesettings
 git clone https://github.com/PixelExperience/packages_resources_devicesettings packages/resources/devicesettings
