@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 $(call inherit-product, vendor/xdroid/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 XDROID_BOOT := 1080
-XDROID_MAINTAINER := BagasCok!!
+XDROID_MAINTAINER := Bagas Strynto!
 
 PRODUCT_NAME := xdroid_sweet
 PRODUCT_DEVICE := sweet
